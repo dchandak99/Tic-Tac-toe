@@ -2,7 +2,7 @@
 
 These are the exact specifications:
 
-    There should be an interactive 3X3 board. (When we say square, we mean those smallest squares).
+   There should be an interactive 3X3 board. (When we say square, we mean those smallest squares).
     Players have their respective symbol (cross or circle). These symbols will be interchanged after each game (i.e. in the first game, player1 gets cross; in the next game, player 2 gets cross ..). At the start of every game, cross plays first.
     Players play by clicking a square. When one player clicks a free square, their symbol (either a circle or a cross) should appear inside that square. If someone clicks an occupied square, nothing should happen.
     Players play alternatively. So, the first click should place a cross, second click should place a circle, 3rd-> again a cross and so on.
@@ -13,11 +13,11 @@ These are the exact specifications:
 
 <RESULT>! Starting a new game in <t> seconds…
 
-    <RESULT> is one of the 3 things:
+   <RESULT> is one of the 3 things:
 
-    Player 1 won
+   Player 1 won
     Player 2 won
     Match tied
 
-    <t> will go from 5 to 1. Any click on the board during this time must start a new game immediately. Starting a new game should refresh the board, change symbols for players, and the above countdown should vanish. It must NOT refresh the whole page!
+   <t> will go from 5 to 1. Any click on the board during this time must start a new game immediately. Starting a new game should refresh the board, change symbols for players, and the above countdown should vanish. It must NOT refresh the whole page!
 
