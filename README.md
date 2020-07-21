@@ -11,13 +11,13 @@ These are the exact specifications:
 - Scoring: Winner will get 4 points; loser will get no point; and if the game ends up as a tie, both players will get 1 point each.
 - After each move, you should check if any player has won or the match has tied. In any case, update the table by appending a new row at its end. Then start a new game after 5 seconds. A countdown should appear to indicate the same with the following message:
 
-- <RESULT>! Starting a new game in <t> seconds ... :
+- $RESULT$! Starting a new game in $t$ seconds ... :
 
-   <RESULT> is one of the 3 things:
+   $RESULT$ is one of the 3 things:
 
    Player 1 won
    Player 2 won
    Match tied
 
-   <t> will go from 5 to 1. Any click on the board during this time must start a new game immediately. Starting a new game should refresh the board, change symbols for players, and the above countdown should vanish. It must NOT refresh the whole page!
+   $t$ will go from 5 to 1. Any click on the board during this time must start a new game immediately. Starting a new game should refresh the board, change symbols for players, and the above countdown should vanish. It must NOT refresh the whole page!
 
