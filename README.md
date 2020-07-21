@@ -19,4 +19,6 @@
     - Match tied
 
    $t$ will go from 5 to 1. Any click on the board during this time must start a new game immediately. Starting a new game should refresh the board, change symbols for players, and the above countdown should vanish. It must NOT refresh the whole page!
-
+  
+### To run:
+Keep both in the same directory and run index.html
